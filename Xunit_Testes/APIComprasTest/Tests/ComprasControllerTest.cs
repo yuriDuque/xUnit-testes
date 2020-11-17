@@ -42,7 +42,7 @@ namespace APIComprasTest.Tests
 
             //Assert  
             var items = Assert.IsType<List<CompraItem>>(okResult.Value);
-            Assert.Equal(5, items.Count);
+            Assert.Equal(5, items.Count); 
         }
     }
 }
