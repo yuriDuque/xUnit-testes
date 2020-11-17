@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APICompras", "APICompras\APICompras.csproj", "{82E19688-21BA-4487-B83C-778FAABFE879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIComprasTest", "APIComprasTest\APIComprasTest.csproj", "{A9B00A80-208B-4E94-B932-808F1D2D6C27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82E19688-21BA-4487-B83C-778FAABFE879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82E19688-21BA-4487-B83C-778FAABFE879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82E19688-21BA-4487-B83C-778FAABFE879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82E19688-21BA-4487-B83C-778FAABFE879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B00A80-208B-4E94-B932-808F1D2D6C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B00A80-208B-4E94-B932-808F1D2D6C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B00A80-208B-4E94-B932-808F1D2D6C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B00A80-208B-4E94-B932-808F1D2D6C27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F99E708-1705-4A9E-AECE-30FBDCED9F37}
+	EndGlobalSection
+EndGlobal
