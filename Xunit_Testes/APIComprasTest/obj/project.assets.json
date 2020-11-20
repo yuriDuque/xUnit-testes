@@ -5641,19 +5641,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Yuri\\.nuget\\packages\\": {}
+    "C:\\Users\\yuri.duque\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APIComprasTest\\APIComprasTest.csproj",
+      "projectUniqueName": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APIComprasTest\\APIComprasTest.csproj",
       "projectName": "APIComprasTest",
-      "projectPath": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APIComprasTest\\APIComprasTest.csproj",
-      "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
-      "outputPath": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APIComprasTest\\obj\\",
+      "projectPath": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APIComprasTest\\APIComprasTest.csproj",
+      "packagesPath": "C:\\Users\\yuri.duque\\.nuget\\packages\\",
+      "outputPath": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APIComprasTest\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yuri.duque\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5661,14 +5665,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.200.42/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj": {
-              "projectPath": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj"
+            "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj": {
+              "projectPath": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj"
             }
           }
         }
@@ -5681,7 +5685,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -5722,7 +5725,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

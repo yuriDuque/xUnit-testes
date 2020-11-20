@@ -4,6 +4,7 @@ using APICompras.Services;
 using APIComprasTest.ServicesFakes;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using System.Linq;
 using Xunit;
 
 namespace APIComprasTest.Tests
@@ -42,7 +43,11 @@ namespace APIComprasTest.Tests
 
             //Assert  
             var items = Assert.IsType<List<CompraItem>>(okResult.Value);
-            Assert.Equal(5, items.Count); 
+
+            //bool result = items.Any(x => x.Nome == "Tablet SamSung 7");
+            //Assert.True(result);
+
+            Assert.Equal(3, items.Count); 
         }
     }
 }

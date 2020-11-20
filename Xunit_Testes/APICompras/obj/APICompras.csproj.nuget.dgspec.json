@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj": {}
+    "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj": {}
   },
   "projects": {
-    "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj": {
+    "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj",
+        "projectUniqueName": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj",
         "projectName": "APICompras",
-        "projectPath": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj",
-        "packagesPath": "C:\\Users\\Yuri\\.nuget\\packages\\",
-        "outputPath": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\obj\\",
+        "projectPath": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj",
+        "packagesPath": "C:\\Users\\yuri.duque\\.nuget\\packages\\",
+        "outputPath": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Yuri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yuri.duque\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,11 +25,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.200.42/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -57,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

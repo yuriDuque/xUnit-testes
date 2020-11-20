@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Zj0WFVEBnw6zatv/w0xPvuEITAEDaVhDPw90BC7/wms+iAUtZ2Vxxp4W+IYukfJ2S2cgd0yK85iqNllv8QxvUg==",
+  "dgSpecHash": "LYOTzCDl8xD1eZO4qn38viQlOfFCxtBkytuIEYM87/BK9gcX1KdA3EJiCKqxjsnscpYJNMcGk+NvF1/ksmWctg==",
   "success": true,
-  "projectFilePath": "E:\\Projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj",
+  "projectFilePath": "D:\\projetos\\xUnit-testes\\Xunit_Testes\\APICompras\\APICompras.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
